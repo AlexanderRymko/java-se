@@ -8,9 +8,8 @@ public class Task6 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число a");
         int a = scanner.nextInt();
-        boolean b = a >= 0;
-        if (a >= 0) {
-            System.out.println("Введенное число a является положительным: " + b);
+        if (a < 0) {
+            System.out.println("Введенное число a является отрицательным: " + true);
         }
     }
 }

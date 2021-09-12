@@ -7,8 +7,8 @@ public class Task7 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Как тебя зовут? Назови своё имя.");
-        String nm = scanner.nextLine();
-        System.out.print("Привет, " + nm);
+        String name = scanner.nextLine();
+        System.out.print("Привет, " + name);
         System.out.println("!");
     }
 }
