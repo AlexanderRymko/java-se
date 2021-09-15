@@ -1,11 +1,21 @@
 package by.rymko.home;
 
-/*
-Решение задачи № 1. Присваиваем исходному файлу имя Task1.java
- */
+import java.util.Arrays;
+
 public class Task1 {
-    // Вызываем метод main()
+
     public static void main(String[] args) {
-        System.out.println("Задача №1 решена");
+        int array1[] = {1, 0, 1, 1, 0};
+        System.out.println("Первоначальный массив: " + Arrays.toString(array1));
+        System.out.println();
+        int i;
+        for (i = 0; i < array1.length; i++) {
+            if (array1[i] != 0) {
+                array1[i] = 0;
+            } else {
+                array1[i] = 1;
+            }
+        }
+        System.out.println("Измененный массив: " +Arrays.toString(array1));
     }
 }
