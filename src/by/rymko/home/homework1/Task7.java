@@ -1,4 +1,4 @@
-package by.rymko.home;
+package by.rymko.home.homework1;
 
 import java.util.Arrays;
 

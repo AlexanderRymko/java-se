@@ -1,8 +1,8 @@
-package by.rymko.home;
+package by.rymko.home.homework1;
 
 public class Task6 {
     public static void main(String[] args) {
-        int array1[]={1,4,1,1,2,1};
+        int array1[] = {1, 4, 1, 1, 2, 1};
         boolean result=getAnswer(array1);
         System.out.println(result);
     }
