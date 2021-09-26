@@ -19,7 +19,6 @@ public class WorkerRunner {
             if (workers[i].getAge() > 40) {
                 System.out.println(workers[i].toString());
             }
-
         }
     }
 }
